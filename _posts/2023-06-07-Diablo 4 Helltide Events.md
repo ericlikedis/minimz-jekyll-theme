@@ -1,3 +1,6 @@
+---
+layout: post
+---
 
 When you guys hit World Tier 3, do helltide events everytime you can, they're stupidly important because they're the only source of Forgotten Souls and you need a lot of them to keep upgrading/rerolling gear. I skimped out on them and wish I didn't now.
 
