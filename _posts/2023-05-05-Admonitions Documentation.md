@@ -1,7 +1,10 @@
 ---
 layout: post
 ---
-> Note: It appears a note in MarkDown is not possible currently.
+> **Note**
+> It appears a note in MarkDown is not possible currently.
+> Reference: https://talk.commonmark.org/t/github-is-beta-testing-their-own-admonition-syntax-we-should-weigh-in/4173
+
 GitHub Link: https://github.com/javalent/admonitions
 
 # Obsidian Admonition
