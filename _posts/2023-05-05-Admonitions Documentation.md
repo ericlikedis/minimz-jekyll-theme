@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-
+> Note: It appears a note in MarkDown is not possible currently.
 GitHub Link: https://github.com/javalent/admonitions
 
 # Obsidian Admonition
