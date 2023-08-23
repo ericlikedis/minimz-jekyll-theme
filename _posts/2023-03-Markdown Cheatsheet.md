@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Markdown Cheat Sheet
 
 >**Note**
