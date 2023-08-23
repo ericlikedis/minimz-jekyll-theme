@@ -147,7 +147,7 @@ quote-right-solid.svg
 Adding an admonition to a post or page is a simple line of Liquid code. See the example of an info admonition below.
 
 ```liquid
-"{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}"
+"'{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}'"
 ```
 
 ### Reference
