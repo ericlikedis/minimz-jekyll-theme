@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #### Malware stuff
 https://digitalcommons.lsu.edu/cgi/viewcontent.cgi?article=6527&context=gradschool_theses
 
