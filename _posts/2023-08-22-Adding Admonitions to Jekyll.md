@@ -2,6 +2,8 @@
 ## What Is An Admonition?
 A distinct area of text to emphasize significant attention that is not a part of the main body. The purpose of admonition is drawing attention towards what you want a reader to remember without significantly interrupting the document flow. Admonitions are more commonly referred to as a callout or call-out.
 
+{% include admonition.html type="info" title="Info" body="Example: This is information intended to draw attention." %}
+
 ## The Code
 My approach was to create a Jekyll include file for the HTML with Liquid template language and Cascading Style Sheets (CSS) with syntactically awesome style sheets (SASS). This will allow for ease of adding admonitions without having to type out all the code manually each time. The styles are not completely identical to Material as I felt it needed to be more fitting to my theme. The Scalable Vector Graphics (SVG) icons I used are from Font Awesome Free. However, I believe one could also use SVG Repo.
 
