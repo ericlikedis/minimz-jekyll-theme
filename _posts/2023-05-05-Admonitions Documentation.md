@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 GitHub Link: https://github.com/javalent/admonitions
 
 # Obsidian Admonition
