@@ -7,10 +7,10 @@ My approach was to create a Jekyll include file for the HTML with Liquid templat
 
 I’ve tested this code on multiple web browsers without issues, so it should work fine under most circumstances.
 
-#### _includes/admonition.hmtl
+#### _includes/admonition.html
 
-```
-{% if include.type.size > 0 and include.title.size > 0 and include.body.size > 0 %}
+```html
+"{% if include.type.size > 0 and include.title.size > 0 and include.body.size > 0 %}
     {% assign types = "note, abstract, info, tip, success, question, warning, failure, danger, bug, example, quote" | split: ", " %}
     {% if types contains include.type %}
 <div class="admonition {{ include.type }} rounded">
@@ -20,12 +20,12 @@ I’ve tested this code on multiple web browsers without issues, so it should wo
     </p>
 </div>
     {% endif %}
-{% endif %}
+{% endif %}"
 ```
 
 #### _scss/admonition.scss
 
-```
+```scss
 $primary-color: #fc0;
 $primary-bgcolor: rgba(55.59%, 44.41%, 0%, .4);
 $admonitions:
@@ -105,26 +105,26 @@ $admonitions:
 
 ## Add Admonitions To Jekyll
 Install the admonition.html file to the _includes/ directory.
-```
+```shell
 $ mv ~/Downloads/admonition.html /project/_includes/
 ```
 
 Install the admonition.scss file to the _sass/ directory.
-```
+```shell
 $ mv ~/Downloads/admonition.scss /project/_sass/
 ```
 
 Edit style sheets to import admonition styles.
-```
+```shell
 $ nano /project/assets/css/styles.scss
 ```
 
-```
+```shell
 @import "admonition";
 ```
 
 Add admonition icons.
-```
+```shell
 $ mv ~/Downloads/*.svg /project/assets/img/icons/
 ```
 
@@ -146,8 +146,8 @@ quote-right-solid.svg
 ## Usage
 Adding an admonition to a post or page is a simple line of Liquid code. See the example of an info admonition below.
 
-```
-{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}
+```liquid
+"{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}"
 ```
 
 ### Reference
