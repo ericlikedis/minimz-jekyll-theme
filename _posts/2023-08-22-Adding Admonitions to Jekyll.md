@@ -10,7 +10,7 @@ I’ve tested this code on multiple web browsers without issues, so it should wo
 #### _includes/admonition.html
 
 ```html
-"{% if include.type.size > 0 and include.title.size > 0 and include.body.size > 0 %}
+"'{% if include.type.size > 0 and include.title.size > 0 and include.body.size > 0 %}
     {% assign types = "note, abstract, info, tip, success, question, warning, failure, danger, bug, example, quote" | split: ", " %}
     {% if types contains include.type %}
 <div class="admonition {{ include.type }} rounded">
@@ -20,7 +20,7 @@ I’ve tested this code on multiple web browsers without issues, so it should wo
     </p>
 </div>
     {% endif %}
-{% endif %}"
+{% endif %}'"
 ```
 
 #### _scss/admonition.scss
