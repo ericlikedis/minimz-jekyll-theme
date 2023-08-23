@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 https://vineethbharadwaj.medium.com/m1-mac-switching-terminal-between-x86-64-and-arm64-e45f324184d9
 
 Here is a simple writeup on how I switch between x86_64 and arm64 in the Terminal app on my MacBook Pro with Apple Silicon.
