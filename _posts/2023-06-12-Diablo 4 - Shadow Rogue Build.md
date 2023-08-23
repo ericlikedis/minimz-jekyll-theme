@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ```ad-important
 This is a beginner friendly build.
 ```
